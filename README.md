@@ -5,3 +5,5 @@ the color combination I chose:
 #E7E8D1   light beige   
 #A7BEAE   muted teal
 
+# to do
+add the links for GitHub and linkedin
