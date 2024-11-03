@@ -21,10 +21,6 @@ header {
   height: 90px;
 }
 
-main {
-  margin-top: 90px;
-}
-
 h1 {
   text-align: center;
 }
@@ -56,8 +52,8 @@ h1 {
 }
 
 main {
-  max-width: 90%;
   padding: 30px;
+  margin-top: 90px;
 }
 
 .image-section {
@@ -68,22 +64,20 @@ main {
 
 .figure-top {
   margin: 10px;
-  flex: 50%;
+  flex: 30%;
   padding: 5px;
-}
-
-.image-top {
-  max-width: 40%;
 }
 
 figcaption {
   font-size: 0.6rem;
 }
 
-.contact-section {
+.contact-section,
+.web-section {
   padding: 5px 20px;
   border: 2px solid #e7e8d1;
   border-radius: 6px;
+  margin-bottom: 10px;
 }
 
 .contact-section h2 {
@@ -101,11 +95,16 @@ figcaption {
 .div-web-section {
   display: flex;
   align-items: flex-end;
+  justify-content: center;
   gap: 20px;
 }
 
 .figure-web {
   flex: 50%;
+}
+
+#icon-git {
+  width: 200px;
 }
 
 .about-me {
