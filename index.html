@@ -3,52 +3,53 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
     <title>My Personal site: Johannes Große Boymann</title>
   </head>
   <body>
     <header>
       <h1>Johannes Große Boymann</h1>
-      <nav>
-        <ul>
-          <li>Contacts</li>
-          <li>Bio</li>
-          <li>Hobbies</li>
+      <nav class="navbar">
+        <ul class="navlist">
+          <li class="navlinks"><a class="navanker" href="">Contacts</a></li>
+          <li class="navlinks"><a class="navanker" href="">Bio</a></li>
+          <li class="navlinks"><a class="navanker" href="">Hobbies</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section>
-        <figure>
-          <img src="" />
+      <section class="image-section" >
+        <figure class="figure-top">
+          <img class="image-top" src="./image/JGB-Foto.jpg" />
           <figcaption>Johannes Große Boymann</figcaption>
         </figure>
-        <figure>
-          <img src="" />
+        <figure class="figure-top">
+          <img class="image-top" src="./image/Aachen image03klein.jpg" />
           <figcaption>Aachen - the place I live</figcaption>
         </figure>
       </section>
-      <section>
+      <section class="contact-section" >
         <h2>Contacts</h2>
         <ul>
-          <li>phone number:</li>
-          <li>email:</li>
+          <li class="contact-li" >phone number:</li>
+          <li class="contact-li" >email:</li>
         </ul>
       </section>
-      <section>
+      <section class="web-section" >
         <h2>Where to find me on the web</h2>
-        <figure>
-          <img src="" />
+        <figure class="figure-web" >
+          <img src="./image/Github.png" />
           <figcaption>GitHub</figcaption>
         </figure>
-        <figure>
-          <img src="" />
+        <figure class="figure-web">
+          <img src="./image/linkedin.png" />
           <figcaption>Linkedin</figcaption>
         </figure>
       </section>
-      <article>
+      <article class="about-article" >
         <h2>About me</h2>
         <p>
-          At the Unsiversity of Hannover and Berlin I studied electrical
+          At the University of Hannover and Berlin I studied electrical
           engineering. Fore more than a decade I ran an engineering office in
           Berlin. Then I changed to become a teacher for maths and physics.
           Afterwards I traveled for some years.
@@ -56,7 +57,7 @@
 
         <p>In october 2024 I turned to become a web dev student.</p>
       </article>
-      <aside>
+      <aside class="education-aside" >
         <h2>My education</h2>
         <ul>
           <li>University Hannover</li>
