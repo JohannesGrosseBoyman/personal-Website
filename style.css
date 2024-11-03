@@ -15,6 +15,14 @@ body {
 header {
   background-color: #e7e8d1;
   margin-bottom: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 90px;
+}
+
+main {
+  margin-top: 90px;
 }
 
 h1 {
