@@ -52,8 +52,16 @@ main {
   padding: 30px;
 }
 
+.image-section {
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+}
+
 .figure-top {
   margin: 10px;
+  flex: 50%;
+  padding: 5px;
 }
 
 .image-top {
@@ -82,8 +90,24 @@ figcaption {
   padding: 5px 20px;
 }
 
+.div-web-section {
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+.figure-web {
+  flex: 50%;
+}
+
+.about-me {
+  display: flex;
+  align-items: flex-start;
+}
+
 .about-article {
   padding: 5px 20px;
+  flex: 75%;
 }
 
 .about-article h2 {
@@ -93,8 +117,16 @@ figcaption {
   padding-left: 3px;
 }
 
+.about-article h2,
+.education-aside h2 {
+  min-height: 30px;
+}
 .about-article p {
   padding: 3px;
+}
+
+.education-aside {
+  flex: 25%;
 }
 
 .education-aside h2 {
@@ -102,9 +134,11 @@ figcaption {
   background-color: #e7e8d1;
   border-radius: 10px;
   padding-left: 3px;
+  font-size: 1rem;
 }
 
 .education-aside ul li {
   list-style: none;
   margin: 5px;
+  font-size: 0.6rem;
 }
