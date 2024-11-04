@@ -30,16 +30,15 @@ h1 {
 }
 
 .navlist {
-  max-width: 60%;
-  margin: 20px auto;
-  text-align: center;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
 }
 
 .navlinks {
-  display: inline;
   padding: 10px;
-
   border: 2px solid #a7beae;
+  list-style: none;
 }
 
 .navanker {
@@ -58,13 +57,14 @@ main {
 
 .image-section {
   display: flex;
+  justify-content: space-evenly;
   align-items: flex-end;
   gap: 20px;
 }
 
 .figure-top {
   margin: 10px;
-  flex: 30%;
+
   padding: 5px;
 }
 
@@ -95,12 +95,8 @@ figcaption {
 .div-web-section {
   display: flex;
   align-items: flex-end;
-  justify-content: center;
+  justify-content: space-around;
   gap: 20px;
-}
-
-.figure-web {
-  flex: 50%;
 }
 
 #icon-git {
